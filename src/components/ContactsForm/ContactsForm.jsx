@@ -1,6 +1,6 @@
 import { nanoid } from 'nanoid';
 import { useDispatch, useSelector } from 'react-redux';
-import { addContact } from '../Redux/contactsApi';
+import { addContact } from '../Redux/operations';
 
 import { Form, FildInput, Label, Button, Div } from './ContactsForm.styled';
 import { selectVisibleContacts } from 'components/Redux/selectors';

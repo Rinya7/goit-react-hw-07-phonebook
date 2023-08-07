@@ -4,7 +4,7 @@ import { Ul, Li, Text } from './ContactList.styled';
 import { useSelector } from 'react-redux';
 import { selectVisibleContacts } from 'components/Redux/selectors';
 import { useEffect } from 'react';
-import { fetchContacts, deleteContact } from 'components/Redux/contactsApi';
+import { fetchContacts, deleteContact } from 'components/Redux/operations';
 export const ContactList = () => {
   const dispatch = useDispatch();
 
